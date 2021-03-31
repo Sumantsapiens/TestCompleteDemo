@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="Tasks_CreateNewFactType" key="{C513C999-C98D-4BE6-86C4-C6B46428A70D}" path="Tasks_CreateNewFactType.js" />
-		<child name="Unit1" key="{00C64A2F-3155-40C9-AF95-CA3FB23D8A5F}" path="Unit1.js" />
-		<child name="Login" key="{6501843C-6E21-4426-BF04-2FA9B821CE35}" path="Login.js" />
+		<folder name="Validation">
+			<folder name="FactTypes">
+				<child name="Tasks_AddFT_Validation_AllowedValues_IsRequired" key="{215EEFA8-EB37-4010-AAB7-0F2658EE1480}" path="Tasks_AddFT_Validation_AllowedValues_IsRequired.js" />
+				<child name="Tasks_AddFT_Validation_DataType_IsRequired" key="{93317750-0360-44F9-98C1-C28537EC2599}" path="Tasks_AddFT_Validation_DataType_IsRequired.js" />
+				<child name="Tasks_AddFt_Validation_DisplayFormatIsRequired" key="{BBBA684A-0EFC-4C82-9DC6-FAC8CBD66C49}" path="Tasks_AddFt_Validation_DisplayFormatIsRequired.js" />
+				<child name="Tasks_AddFT_Validation_Duplicate_FactType" key="{90A11CF5-5E11-46D5-8907-9DB9AEF9486F}" path="Tasks_AddFT_Validation_Duplicate_FactType.js" />
+				<child name="Tasks_AddFT_Validation_NameIsRequired" key="{00C64A2F-3155-40C9-AF95-CA3FB23D8A5F}" path="Tasks_AddFT_Validation_NameIsRequired.js" />
+			</folder>
+		</folder>
+		<folder name="Generic">
+			<child name="SelectingDateFromCalendar" key="{1C228B8F-429C-4585-993D-33F48E0A2C40}" path="SelectingDateFromCalendar.js" />
+			<child name="SelectingTimefromDropDown" key="{16C9A004-789F-45C0-8DDA-22255D4A6CCF}" path="SelectingTimefromDropDown.js" />
+		</folder>
+		<folder name="Modelling">
+			<folder name="FactType">
+				<child name="FactTypeTab_AddNewFactType_Verify" key="{C513C999-C98D-4BE6-86C4-C6B46428A70D}" path="FactTypeTab_AddNewFactType_Verify.js" />
+			</folder>
+		</folder>
 	</children>
 </Root>

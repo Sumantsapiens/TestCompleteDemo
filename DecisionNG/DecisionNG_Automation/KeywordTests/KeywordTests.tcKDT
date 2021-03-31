@@ -8,12 +8,11 @@
 		<folder name="Pages Navigations" />
 		<folder name="Modelling">
 			<folder name="Fact Type">
-				<folder name="General">
-					<child name="Tasks_Create_New_FactType" key="{B8262AA1-D804-4CD6-BC2D-94FFE7E4F1ED}" path="Tasks_Create_New_FactType.tcKDTest" />
-					<child name="Validation_Name_is_required" key="{358D64D1-5F97-4123-BA84-19788629FA99}" path="Validation_Name_is_required.tcKDTest" />
-				</folder>
+				<folder name="General" />
 				<folder name="Pre-requisite" />
-				<folder name="Test Case Specific" />
+				<folder name="Test Case Specific">
+					<child name="FactTypeTab_AddNewFactType_Verify" key="{BD2047B3-0CF9-4C8C-B3A8-7AFF1707900F}" path="FactTypeTab_AddNewFactType_Verify.tcKDTest" />
+				</folder>
 			</folder>
 			<folder name="Decision">
 				<folder name="Pre-requisite" />
@@ -34,6 +33,15 @@
 				<folder name="General" />
 				<folder name="Test Case Specific" />
 				<folder name="Pre-requisite" />
+			</folder>
+		</folder>
+		<folder name="Validation">
+			<folder name="FactTypes">
+				<child name="Tasks_AddFT_Validation_AllowedValues_IsRequired" key="{374108A4-1F15-447E-9DDC-327F5B555A80}" path="Tasks_AddFT_Validation_AllowedValues_IsRequired.tcKDTest" />
+				<child name="Tasks_AddFT_Validation_Datatype_IsRequired" key="{0752D8A6-1A4D-4068-B7BA-FC512F8C79BA}" path="Tasks_AddFT_Validation_Datatype_IsRequired.tcKDTest" />
+				<child name="Tasks_AddFt_Validation_DisplayFormatIsRequired" key="{DB9CE72F-9828-47E2-A457-F4BB74D16DD5}" path="Tasks_AddFt_Validation_DisplayFormatIsRequired.tcKDTest" />
+				<child name="Tasks_AddFT_Validation_Duplicate_FactType" key="{9D3E4B83-BBAE-483E-B042-E6820600DC87}" path="Tasks_AddFT_Validation_Duplicate_FactType.tcKDTest" />
+				<child name="Tasks_AddFT_Validation_Name_is_required" key="{358D64D1-5F97-4123-BA84-19788629FA99}" path="Tasks_AddFT_Validation_Name_is_required.tcKDTest" />
 			</folder>
 		</folder>
 	</children>

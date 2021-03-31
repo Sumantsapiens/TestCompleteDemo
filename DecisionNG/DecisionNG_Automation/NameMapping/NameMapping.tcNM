@@ -1512,6 +1512,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode5" Key="{565B4F96-62DA-48A0-9DD2-F3DB55459DD8}">
+										<Image FileName="-630307322" Left="954" Top="542" Right="968" Bottom="556" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".wj-glyph-clock" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-accordiontab-0-content&apos;]/div/fact-type-form-details/div/form/domain-form-component/form/span/fx-field/div/div/span/dcn-value-list-editor/div/dcn-domain-input/div/div/div/div/div/dcn-date-input/div/div/dcn-date-picker/wj-input-date-time/div/div/div/span/button[2]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{2D9E57DA-D5F4-4439-B4DF-EDE3B93AAAD8}" ExtendedFind="True">
@@ -1847,7 +1862,9 @@
 							<Child Name="label" Owner="{34814DCF-47D6-42BE-B72C-84E1B638B792}" />
 							<Child Name="textbox4" Owner="{1820A3E9-4324-49E5-BB15-4585371C8F57}" />
 							<Child Name="textbox5" Owner="{F9C7F742-B288-46EF-83E4-A451E9A8599B}" />
-							<Child Name="button5" Owner="{42BD90A9-78B2-495E-8CA6-0335477B3A2A}" />
+							<Child Name="button5" Owner="{42BD90A9-78B2-495E-8CA6-0335477B3A2A}">
+								<Child Name="textnode5" Owner="{565B4F96-62DA-48A0-9DD2-F3DB55459DD8}" />
+							</Child>
 							<Child Name="labelDataTypeIsRequired" Owner="{FDB01C09-5042-44B2-A40F-C3529BAC710F}" />
 							<Child Name="labelDisplayFormatIsRequired" Owner="{15C2C472-15AF-43A6-A854-5474CB703C21}" />
 							<Child Name="labelAllowedValuesIsRequired" Owner="{A37ECB19-AC8D-4DDF-BF50-6AA0548EA165}" />

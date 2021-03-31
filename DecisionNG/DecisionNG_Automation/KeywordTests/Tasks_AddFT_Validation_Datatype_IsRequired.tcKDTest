@@ -8,6 +8,11 @@
 				</NodeBitmaps>
 			</Extenders>
 		</Data>
+		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Tasks_AddFT_Validation_Datatype_IsRequired" Unit="Tasks_AddFT_Validation_DataType_IsRequired" />
+			</Operation>
+		</Children>
 	</TestData>
 	<Parameters Key="{CA085CA7-3909-4421-8C06-EF01BCB39249}" />
 </Root>

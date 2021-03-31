@@ -38,6 +38,9 @@
 					<Node name="var3">
 						<Prp name="name" type="S" value="Password1"/>
 					</Node>
+					<Node name="var4">
+						<Prp name="name" type="S" value="Create_New_FactType"/>
+					</Node>
 				</Node>
 				<Prp name="version" type="I" value="4"/>
 			</Node>

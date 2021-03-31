@@ -6,6 +6,11 @@
 				<NodeBitmaps />
 			</Extenders>
 		</Data>
+		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Tasks_AddFt_Validation_DisplayFormatIsRequired" Unit="Tasks_AddFt_Validation_DisplayFormatIsRequired" />
+			</Operation>
+		</Children>
 	</TestData>
 	<Parameters Key="{7EC94849-8B68-4500-8E47-895F1C66A297}" />
 </Root>

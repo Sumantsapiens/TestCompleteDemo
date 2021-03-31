@@ -6,6 +6,11 @@
 				<NodeBitmaps />
 			</Extenders>
 		</Data>
+		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Tasks_Create_New_FactType" Unit="FactTypeTab_AddNewFactType_Verify" />
+			</Operation>
+		</Children>
 	</TestData>
 	<Parameters Key="{34144206-A13B-41E6-9897-9F0FA4E6E41D}" />
 </Root>

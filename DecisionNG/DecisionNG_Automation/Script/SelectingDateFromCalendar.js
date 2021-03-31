@@ -1,13 +1,16 @@
-﻿function Test2()
+﻿function CalendarSelection()
 {
   
-    let browser = Aliases.browser;
-    let page = browser.pageSapiensDecision;
-    let phoneInput = page.form.form2.form4;
-    let phoneInput2 = phoneInput.textbox4;
+//    let browser = Aliases.browser;
+//    let page = browser.pageSapiensDecision;
+//    let phoneInput = page.form.form2.form4;
+//    let phoneInput2 = phoneInput.textbox4;
     Aliases.browser.pageSapiensDecision.form.form2.button9.textnode4.Click();
+    Delay(300);
     Aliases.browser.pageSapiensDecision.textnodeMarch2021.Click();
+    Delay(300);
     Aliases.browser.pageSapiensDecision.cell9.Click();
+    Delay(300);
     
     //This is for Year selection
     let Year=Aliases.browser.pageSapiensDecision.FindElements("//div[@role='option']")
@@ -19,7 +22,9 @@
     //Log.Message(YearText)
     if(YearText == "1992")
     {
+      Delay(300)
      Aliases.browser.pageSapiensDecision.FindElement("//div[@role='option']["+i+"]").click();
+     Delay(1000)
      Log.Message("Selected the Year Successfully") 
      break;
     }
@@ -43,7 +48,9 @@
         //Log.Message(MonthCelltext)
         if(MonthCelltext == "Jul")
         {
+          Delay(300)
           Aliases.browser.pageSapiensDecision.FindElement("//table[@class='wj-calendar-year']//tr["+i+"]//td["+j+"]").click();
+          Delay(300)
           Log.Message("Selected Month Successfully")
         }
         
@@ -80,37 +87,31 @@
             }          
             else
             {
-               Aliases.browser.pageSapiensDecision.FindElement("//table[@class='wj-calendar-month']//tr["+i+"]//td["+j+"]").click();        
-             Log.Message("Selected Date Successfully");
-             break;
+               Delay(300)
+               Aliases.browser.pageSapiensDecision.FindElement("//table[@class='wj-calendar-month']//tr["+i+"]//td["+j+"]").click(); 
+               Delay(300)       
+               Log.Message("Selected Date Successfully");
+               break;
             }
           }
           else
-          {          
-          Aliases.browser.pageSapiensDecision.FindElement("//table[@class='wj-calendar-month']//tr["+i+"]//td["+j+"]").click();        
+          {    
+            Delay(300)
+          Aliases.browser.pageSapiensDecision.FindElement("//table[@class='wj-calendar-month']//tr["+i+"]//td["+j+"]").click();    
+          Delay(300)    
           Log.Message("Selected Date Successfully");
           break;
          
           }
    
           }
-      
-
-    
-//  //Checkppoint for "Date Short US" Format
-//  aqObject.CheckProperty(phoneInput2, "value", cmpEqual, "1/4/1922");
-// 
-//  let button = phoneInput.button3;
-//  button.ClickButton();
-//  page.panel12.Click();
-//  //CheckPoint for "Date Short EU" format
-//  aqObject.CheckProperty(phoneInput2, "value", cmpEqual, "4/1/1922");
-//  button.ClickButton();
-//  page.panel3.Click();
-//  //Checkpoint for "Date Long US" format
-//  aqObject.CheckProperty(phoneInput2, "value", cmpEqual, "Wednesday, January 04 1922");
-  }
   }
   
+  
+  }
+  Delay(300);
+  Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
+  Delay(300);
   }
 
+module.exports.CalendarSelection = CalendarSelection;

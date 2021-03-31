@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
-	<TestData Description="" Key="{D7DBA068-927E-49C6-9229-A70E9AD437A9}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{677EE8A1-88B5-4D0A-A7F1-1FD499B42234}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps>
@@ -10,9 +10,9 @@
 		</Data>
 		<Children>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Tasks_AddFT_Validation_Duplicate_FactType" Unit="Tasks_AddFT_Validation_Duplicate_FactType" />
+				<Data Description="Runs a script routine." TestName="Validation_Name_is_required" Unit="Tasks_AddFT_Validation_NameIsRequired" />
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{86F48D04-3416-4D58-B305-CC3BA8F5A9C1}" />
+	<Parameters Key="{E4D16154-54F8-4289-9081-746E907EF04F}" />
 </Root>

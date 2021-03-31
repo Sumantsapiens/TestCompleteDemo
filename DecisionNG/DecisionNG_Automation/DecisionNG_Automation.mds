@@ -22,23 +22,7 @@
 										<children>
 											<testItem name="Test Case # &amp; Test Case Name" key="{6492876B-EBE5-450C-AAEF-ACFE2E3C2C22}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
-												<children>
-													<testItem name="Login" key="{56F31A12-82E7-4917-8D53-7289989A8083}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters />
-														<environments testedURL="" />
-														<children />
-													</testItem>
-													<testItem name="Tasks_Create_New_FactType" key="{049DAB95-CAB0-4B09-9E06-0A4179E667CC}" group="False" parallel="False" enabled="True" testMoniker="{C513C999-C98D-4BE6-86C4-C6B46428A70D}Tasks_Create_New_FactType" count="1" timeout="5" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
-														<testParameters />
-														<environments testedURL="" />
-														<children />
-													</testItem>
-													<testItem name="Logout" key="{4CAB3C3E-D39F-456E-AC56-662965014404}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters />
-														<environments testedURL="" />
-														<children />
-													</testItem>
-												</children>
+												<children />
 											</testItem>
 										</children>
 									</testItem>
@@ -66,11 +50,6 @@
 					<DefValue StrValue="38003900360031003900330044003300460034004400380046003300460034004500430039003800410037003900310044004100460043004500330031004600350043003000350035003400320034003800320032003100310041003600430034004400330031004400360035003200" />
 				</Variable>
 				<Variable Name="Create_New_FactType" Type="DB Table" Local="False">
-					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\Test_Data.xlsx" Table="CreateNewFactTypeData$" HasColumnNames="True" />
-					</DefValue>
-				</Variable>
-				<Variable Name="Create_New_FactType1" Type="DB Table" Local="False">
 					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
 						<ConnectionInfo FileName="..\Test_Data.xlsx" Table="CreateNewFactTypeData$" HasColumnNames="True" />
 					</DefValue>
@@ -568,7 +547,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="2" colIndex="1">
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="0" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />
@@ -619,9 +598,9 @@
 		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
-		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
+		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
-		<setting name="Playback_StopOnError" type="1" value="True" />
+		<setting name="Playback_StopOnError" type="1" value="False" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
 		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
