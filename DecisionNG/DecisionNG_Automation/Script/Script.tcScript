@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="Unit1" key="{0458D4AC-5B70-441B-8CD4-7994484FE116}" path="Unit1.js" />
+		<child name="Tasks_CreateNewFactType" key="{C513C999-C98D-4BE6-86C4-C6B46428A70D}" path="Tasks_CreateNewFactType.js" />
+		<child name="Unit1" key="{00C64A2F-3155-40C9-AF95-CA3FB23D8A5F}" path="Unit1.js" />
+		<child name="Login" key="{6501843C-6E21-4426-BF04-2FA9B821CE35}" path="Login.js" />
 	</children>
 </Root>

@@ -8,7 +8,10 @@
 		<folder name="Pages Navigations" />
 		<folder name="Modelling">
 			<folder name="Fact Type">
-				<folder name="General" />
+				<folder name="General">
+					<child name="Tasks_Create_New_FactType" key="{B8262AA1-D804-4CD6-BC2D-94FFE7E4F1ED}" path="Tasks_Create_New_FactType.tcKDTest" />
+					<child name="Validation_Name_is_required" key="{358D64D1-5F97-4123-BA84-19788629FA99}" path="Validation_Name_is_required.tcKDTest" />
+				</folder>
 				<folder name="Pre-requisite" />
 				<folder name="Test Case Specific" />
 			</folder>

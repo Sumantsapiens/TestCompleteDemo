@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{1CA6D14C-650B-4FCC-89EB-65FEAFB90136}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+	</TestData>
+	<Parameters Key="{7EC94849-8B68-4500-8E47-895F1C66A297}" />
+</Root>
