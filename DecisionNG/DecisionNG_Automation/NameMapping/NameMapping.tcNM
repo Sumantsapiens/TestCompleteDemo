@@ -29,7 +29,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="http://bdmsuat8:8854/enterprise/index.html*" />
+										<Value Value="http://bdmsuat*:*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -1527,6 +1527,60 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="button10" Key="{011AB182-A8EF-419B-B2E9-B13F2F723ED8}">
+										<Image FileName="284733121" Left="943" Top="426" Right="979" Bottom="462" />
+										<TypeInfo Item0="{3F80DE51-ED73-4C0D-BFB0-F251C33216FE}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".valid-value-combobox-spec:nth-child(1) &gt; .wj-control:nth-child(1) &gt; .wj-template:nth-child(1) &gt; .wj-input:nth-child(1) &gt; .wj-input-group:nth-child(1) &gt; .wj-input-group-btn:nth-child(2) &gt; [type=&apos;button&apos;]:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//button[@type=&apos;button&apos;])[15]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-accordiontab-0-content&apos;]/div/fact-type-form-details/div/form/domain-form-component/form/span/fx-field/div/div/span/dcn-value-list-editor/div/dcn-domain-input/div/div/div/div/div/dcn-day-in-week-input/div/div/dcn-combo-box/wj-combo-box/div/div/div/span/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/dcn-combo-box/wj-combo-box/div/div/div/span/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel14" Key="{80C91310-460F-4D47-A55A-6188CE46F4FB}">
+										<Image FileName="-2043906882" Left="500" Top="105" Right="598" Bottom="162" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".navigation-menu__item__tasks" />
+											</Selector>
+											<Selector>
+												<Value Value="(//div[contains(.,&apos;Tasks (83)&apos;)])[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div/dcn-navigation-menu/div/span/div[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel15" Key="{B24D6D34-3F44-4FEB-A476-3A8D1767EEA3}">
+										<Image FileName="-837939222" Left="0" Top="413" Right="180" Bottom="463" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".navigation-menu__item__factTypes" />
+											</Selector>
+											<Selector>
+												<Value Value="(//div[contains(.,&apos;Fact Types&apos;)])[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-task/div/dcn-navigation-menu/div/span/div[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-task/div/dcn-navigation-menu/div/span/div[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{2D9E57DA-D5F4-4439-B4DF-EDE3B93AAAD8}" ExtendedFind="True">
@@ -1558,7 +1612,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="http://bdmsuat8:8854/login.jsp" />
+										<Value Value="http://bdmsuat*:*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -1871,6 +1925,7 @@
 							<Child Name="numberinputLength" Owner="{A59F88FE-330F-474D-A93B-03C7DEC0314E}" />
 							<Child Name="textnode1" Owner="{5A1E6F1F-98D9-4EA0-8382-2126EF373D25}" />
 							<Child Name="textnode22" Owner="{6DEA2E18-D03A-4807-9CEE-7A25A45195E0}" />
+							<Child Name="button10" Owner="{011AB182-A8EF-419B-B2E9-B13F2F723ED8}" />
 						</Child>
 						<Child Name="textnodeDraft2" Owner="{DA9AAF9E-44B3-44C7-B1BE-6356B56B6124}" />
 						<Child Name="panel10" Owner="{38FD6AA1-4303-4353-B4D7-FCFA2301208C}" />
@@ -1931,6 +1986,8 @@
 				<Child Name="cell12" Owner="{023513A3-905D-4570-9F13-045AF3E22358}" />
 				<Child Name="panel12" Owner="{E48F8961-B70E-4C50-8EE9-DB72D3DAAE1A}" />
 				<Child Name="panel13" Owner="{507D1897-9B49-4CB7-8E15-440BEB4C1798}" />
+				<Child Name="panel14" Owner="{80C91310-460F-4D47-A55A-6188CE46F4FB}" />
+				<Child Name="panel15" Owner="{B24D6D34-3F44-4FEB-A476-3A8D1767EEA3}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{2D9E57DA-D5F4-4439-B4DF-EDE3B93AAAD8}" />
 			<Child Name="pagePractitestTestLibraryList" Owner="{5E5E8360-847C-4268-BC74-6AC46788740E}">

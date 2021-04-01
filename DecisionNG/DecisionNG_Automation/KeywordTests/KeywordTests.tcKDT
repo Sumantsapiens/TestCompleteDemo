@@ -4,8 +4,13 @@
 		<folder name="Generic">
 			<child name="Login" key="{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" path="Login.tcKDTest" />
 			<child name="Logout" key="{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" path="Logout.tcKDTest" />
+			<child name="Navigate_To_TaskQueue" key="{C82CDA71-2A65-452F-B36B-F91B6A846799}" path="Navigate_To_TaskQueue.tcKDTest" />
 		</folder>
-		<folder name="Pages Navigations" />
+		<folder name="Pages Navigations">
+			<folder name="Task_Tab_Navigations">
+				<child name="Navigate_to_FactType_Tab_from_Decision_Tab" key="{7CE97A00-A5DA-4CF2-8314-F5EF9C9CDF15}" path="Navigate_to_FactType_Tab_from_Decision_Tab.tcKDTest" />
+			</folder>
+		</folder>
 		<folder name="Modelling">
 			<folder name="Fact Type">
 				<folder name="General" />
@@ -43,6 +48,9 @@
 				<child name="Tasks_AddFT_Validation_Duplicate_FactType" key="{9D3E4B83-BBAE-483E-B042-E6820600DC87}" path="Tasks_AddFT_Validation_Duplicate_FactType.tcKDTest" />
 				<child name="Tasks_AddFT_Validation_Name_is_required" key="{358D64D1-5F97-4123-BA84-19788629FA99}" path="Tasks_AddFT_Validation_Name_is_required.tcKDTest" />
 			</folder>
+		</folder>
+		<folder name="Tasks_Queue">
+			<child name="MyTasks_Tasks" key="{AA75FF4A-62AE-4A94-9F28-1E635458F976}" path="MyTasks_Tasks.tcKDTest" />
 		</folder>
 	</children>
 </Root>

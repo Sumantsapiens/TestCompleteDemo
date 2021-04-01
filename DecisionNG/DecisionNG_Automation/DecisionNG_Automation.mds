@@ -20,11 +20,63 @@
 									<testItem name="Fact Type" key="{ACB0FBBE-3E46-41A7-8461-7FC51A4F4566}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<children>
-											<testItem name="Test Case # &amp; Test Case Name" key="{6492876B-EBE5-450C-AAEF-ACFE2E3C2C22}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Test Case # &amp; Tasks_FactTypeTab_Add_FactType" key="{6492876B-EBE5-450C-AAEF-ACFE2E3C2C22}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
-												<children />
+												<children>
+													<testItem name="Login" key="{1C46DF6B-0AC2-4807-B61B-C3E231E65697}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Navigate_To_TaskQueue" key="{C4365375-45CD-4001-B85D-143554CCCE72}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C82CDA71-2A65-452F-B36B-F91B6A846799}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="MyTasks_Tasks" key="{686996A4-1EB6-4192-A53D-D0E106E4B085}" group="False" parallel="False" enabled="True" testMoniker="KDT\{AA75FF4A-62AE-4A94-9F28-1E635458F976}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Navigate_to_FactType_Tab_from_Decision_Tab" key="{A8B84A60-B209-4620-8132-BA6C12F841AE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7CE97A00-A5DA-4CF2-8314-F5EF9C9CDF15}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="FactTypeTab_AddNewFactType_Verify" key="{5F03F977-CA40-477E-ACF2-B0A381B10DAE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BD2047B3-0CF9-4C8C-B3A8-7AFF1707900F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Logout" key="{ACE00A68-D156-4527-881D-5934F4DA0CD4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments testedURL="" />
+														<children />
+													</testItem>
+												</children>
 											</testItem>
 										</children>
+									</testItem>
+									<testItem name="Rule Family" key="{D27C930D-405F-47C6-8DAC-A7B0B4D1B8E3}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<children />
+									</testItem>
+									<testItem name="Decision" key="{6EB76C41-7409-4456-8EEB-F731B64C6D56}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<children />
+									</testItem>
+									<testItem name="Flow" key="{60A0FB54-37E7-4A7C-BB27-AB5FD523F608}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<children />
+									</testItem>
+								</children>
+							</testItem>
+							<testItem name="Validation" key="{1BC31379-92A8-4C73-94F0-968687AFCE6B}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children>
+									<testItem name="Fact Type" key="{C7AFB574-590C-462A-ABE7-3DA866977DAD}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<children />
 									</testItem>
 								</children>
 							</testItem>
@@ -38,10 +90,10 @@
 		<data Version="4">
 			<Items>
 				<Variable Name="URL_UAT" Type="String" Local="False" Descr="Env available on bdmsuat8">
-					<DefValue StrValue="http://bdmsuat7:18821/login.jsp#" />
+					<DefValue StrValue="http://bdmsuat8:8854/login.jsp" />
 				</Variable>
 				<Variable Name="UserName" Type="String" Local="False" Descr="SuperUser">
-					<DefValue StrValue="Vars" />
+					<DefValue StrValue="sgp" />
 				</Variable>
 				<Variable Name="Password" Type="String" Local="False" Descr="SuperUser">
 					<DefValue StrValue="Decision1" />
@@ -52,6 +104,11 @@
 				<Variable Name="Create_New_FactType" Type="DB Table" Local="False">
 					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
 						<ConnectionInfo FileName="..\Test_Data.xlsx" Table="CreateNewFactTypeData$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+				<Variable Name="TaskName" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\Test_Data.xlsx" Table="TaskNames$" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
 			</Items>

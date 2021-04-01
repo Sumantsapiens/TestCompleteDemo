@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{F8360369-591C-4E1E-AE92-A5D8D4760165}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Tasks_MyTasks" Unit="Tasks_MyTasks" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{7EE780CE-2ED3-45CF-8942-5BAD073F7F70}" />
+</Root>

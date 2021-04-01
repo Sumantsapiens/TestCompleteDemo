@@ -9,6 +9,9 @@ function Tasks_Create_New_FactType()
   for(; !Project.Variables.Create_New_FactType.IsEOF();)
   
   { 
+    if(Project.Variables.Create_New_FactType.Value("Flag")=="Yes")
+    {
+      
     var timestamp = new Date();
     var FactType_Name = timestamp.getMilliseconds().toString() + timestamp.getHours().toString() + timestamp.getMinutes().toString();
     //Starting point  of a testcase
@@ -234,14 +237,15 @@ function Tasks_Create_New_FactType()
       textbox.buttonOk.ClickButton();
          
       }
-      
+      }
       //Open FactType and Verify the data and error if any
       aqTestCase.End();
     
      Project.Variables.Create_New_FactType.Next();
  
 
-
+    
+    
   
   }
 }
