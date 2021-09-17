@@ -1,0 +1,16 @@
+Exception
+The test execution was interrupted.
+An exception occurred while the element specified in the 'Login' test item was being executed.
+The following error occurred while running the 'DecisionNG_Automation' project:    An exception occurred while the element specified in the 'Login' test item was being executed.  Do you want to stop the project execution?
+The object "panel14" does not exist.
+The object "pageSapiensDecision" does not exist.
+The object "pageSapiensDecision.FindElements" does not exist.
+TypeError: Illegal invocation
+Exception
+The test execution was interrupted.
+An exception occurred while the element specified in the 'MyTasks_Tasks' test item was being executed.
+The following error occurred while running the 'DecisionNG_Automation' project:    An exception occurred while the element specified in the 'MyTasks_Tasks' test item was being executed.  Do you want to stop the project execution?
+The object "panel15" does not exist.
+Unable to verify a value with the property checkpoint, because the target object does not exist.
+The test execution was interrupted.
+The execution process was interrupted.
