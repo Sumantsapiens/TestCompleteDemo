@@ -25,7 +25,7 @@
 												<children>
 													<testItem name="Login" key="{1C46DF6B-0AC2-4807-B61B-C3E231E65697}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="URL" type="1" localVarName="URL" localVarLevel="1" value="" />
+															<param0 name="URL" type="1" localVarName="" value="%URL%" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
@@ -109,9 +109,6 @@
 					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
 						<ConnectionInfo FileName="..\Test_Data.xlsx" Table="TaskNames$" HasColumnNames="True" />
 					</DefValue>
-				</Variable>
-				<Variable Name="URL" Type="String" Local="False">
-					<DefValue StrValue="${URL}" />
 				</Variable>
 			</Items>
 		</data>
