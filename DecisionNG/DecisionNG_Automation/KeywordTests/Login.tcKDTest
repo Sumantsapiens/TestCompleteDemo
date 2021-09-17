@@ -95,5 +95,7 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{76129CE8-43A8-46CA-8C7E-B5401652ADF3}" />
+	<Parameters Key="{76129CE8-43A8-46CA-8C7E-B5401652ADF3}">
+		<Parameter0 Name="URL" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+	</Parameters>
 </Root>

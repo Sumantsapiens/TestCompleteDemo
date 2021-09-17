@@ -24,33 +24,35 @@
 												<testParameters />
 												<children>
 													<testItem name="Login" key="{1C46DF6B-0AC2-4807-B61B-C3E231E65697}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters />
-														<environments testedURL="" />
+														<testParameters>
+															<param0 name="URL" type="1" localVarName="" value="${URL}" />
+														</testParameters>
+														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Navigate_To_TaskQueue" key="{C4365375-45CD-4001-B85D-143554CCCE72}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C82CDA71-2A65-452F-B36B-F91B6A846799}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
-														<environments testedURL="" />
+														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="MyTasks_Tasks" key="{686996A4-1EB6-4192-A53D-D0E106E4B085}" group="False" parallel="False" enabled="True" testMoniker="KDT\{AA75FF4A-62AE-4A94-9F28-1E635458F976}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
-														<environments testedURL="" />
+														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Navigate_to_FactType_Tab_from_Decision_Tab" key="{A8B84A60-B209-4620-8132-BA6C12F841AE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7CE97A00-A5DA-4CF2-8314-F5EF9C9CDF15}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 														<testParameters />
-														<environments testedURL="" />
+														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="FactTypeTab_AddNewFactType_Verify" key="{5F03F977-CA40-477E-ACF2-B0A381B10DAE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BD2047B3-0CF9-4C8C-B3A8-7AFF1707900F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
-														<environments testedURL="" />
+														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Logout" key="{ACE00A68-D156-4527-881D-5934F4DA0CD4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
-														<environments testedURL="" />
+														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 												</children>
@@ -115,7 +117,7 @@
 		</data>
 	</variables>
 	<settings key="{08DB5FAE-2D1E-4A73-9F9C-56F22F8E9F46}">
-		<settingsVersion value="14.74" />
+		<settingsVersion value="14.92" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -218,6 +220,7 @@
 			</data>
 		</setting>
 		<setting name="General_ProjectLogLocation" type="5" value="Log" />
+		<setting name="General_RepaintWindowBeforeCapturingImage" type="1" value="True" />
 		<setting name="General_UnitsEncoding" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -230,6 +233,7 @@
 			</data>
 		</setting>
 		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
+		<setting name="Gherkin_StopScenarioOutlineIfExampleFails" type="1" value="False" />
 		<setting name="HipTest_ProjectID" type="2" value="-1" />
 		<setting name="HipTest_ProjectName" type="5" value="The current project is not bound to CucumberStudio." />
 		<setting name="HipTest_SaveResults" type="1" value="True" />
@@ -707,6 +711,7 @@
 			</data>
 		</setting>
 		<setting name="Visualizer_DeleteAll" type="1" value="True" />
+		<setting name="Visualizer_ParallelPlaybackCapture" type="1" value="False" />
 		<setting name="Visualizer_PlaybackCaptureProperties" type="1" value="False" />
 		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="1" colIndex="0">
 			<columns>
