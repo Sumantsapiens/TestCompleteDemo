@@ -39,6 +39,15 @@
 				<Prp name="relpath" type="S" value="17-09-2021_12_57_52_892\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44456.542549456"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6C24E9A6-FD38-46B5-8E1A-A77467E103C7}"/>
+				<Prp name="nameofroot" type="S" value="DecisionNG_Automation"/>
+				<Prp name="relpath" type="S" value="17-09-2021_13_01_16_273\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
