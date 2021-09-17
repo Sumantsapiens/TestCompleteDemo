@@ -41,6 +41,12 @@
 					<Node name="var4">
 						<Prp name="name" type="S" value="TaskName"/>
 					</Node>
+					<Node name="var5">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="TestURL"/>
+					</Node>
 				</Node>
 				<Prp name="version" type="I" value="4"/>
 			</Node>
