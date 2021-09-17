@@ -1,0 +1,2 @@
+The test execution was interrupted.
+The execution process was interrupted.
